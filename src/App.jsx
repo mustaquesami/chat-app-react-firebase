@@ -1,6 +1,7 @@
 import Login from "./pages/Login";
 import Registration from "./pages/Registration";
 import { BrowserRouter as Router,Route,Routes } from "react-router-dom";
+import './config/firebase'
 
 export default function App() {
   return (
